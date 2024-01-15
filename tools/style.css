@@ -6,4 +6,15 @@ html {
   @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 }
 body {
+  min-height: 100vh;
+        display: flex;
+        margin: 0;
+        padding: 3rem;
+        padding-bottom: 5rem;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        color: #444;
+        flex-direction: column;
+        text-align: center;
 }
