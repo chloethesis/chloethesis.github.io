@@ -1,7 +1,7 @@
 function getInputValue() {
         var inputVal = document.getElementById("myInput").value;
         var anuan = inputVal;
-		var url = "https://haveibeenpwned.com/api/v3/breaches";
+		var url = "https://haveibeenpwned.com/api/breaches?domain=";
         var requestOptions = {
           method: 'GET',
           redirect: 'follow'
