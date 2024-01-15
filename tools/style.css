@@ -3,7 +3,9 @@
 html {
   margin: 0;
   padding: 0;
-  @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+	font: 16px/1.5 -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+          "Helvetica Neue", "Arial", "Noto Sans", sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 body {
   min-height: 100vh;
