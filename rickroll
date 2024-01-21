@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=https://www.youtube.com/watch?v=xvFZjo5PgG0">
+        <script type="text/javascript">
+            window.location.href = "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+        </script>
+        <title>Page Redirect</title>
+    </head>
+    <body>
+    </body>
+</html>
