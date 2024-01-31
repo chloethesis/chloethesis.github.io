@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{Google Dork Creator }</title>
+    <title>{ Google Dork Creator}</title>
     <meta charset="UTF-8">
     <meta name="robots" content="noindex">
 	<meta name="googlebot" content="noindex">
@@ -15,6 +15,49 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <style>
+    	@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    body {
+    	scroll-behavior: smooth;
+   	 margin:0;
+   	width: 100%;
+ 	   padding:0;
+		font-family: 'Quicksand', sans-serif;
+    	background: #111a20;
+  	  color: #fff;
+    }
+    a {
+    	color: #b3d4fc;
+ 	   text-decoration: none;
+    }
+    a:hover {
+		text-decoration: underline;
+		color: #b3d4fc;
+}
+::selection {
+	background: #b3d4fc;
+	color: #000;
+	}
+      #log {
+        min-height: 80px;
+        color: #000;
+  }
+  .btnxd {
+	padding: 4px 70px;
+	font-family: 'Quicksand', sans-serif;
+	color: #000;
+	border-radius: 4px;
+	border: 0px;
+	background: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+.btnxd:hover {
+	background: #101010;
+	border: 1px solid #FFFFFF;
+	color: #fff;
+}
+    </style>
   </head>
 
   <body class="">
@@ -284,6 +327,38 @@
         </div>
       </div>
     </form>
+
 <script src="windows.js"></script>
+    <script>
+      (function (window, document) {
+        const form = document.forms.namedItem("generator");
+        const log = document.querySelector("#log");
+        const googleBtn = document.querySelector("#google");
+
+        form.addEventListener(
+          "submit",
+          (event) => {
+            let data = new FormData(form);
+            let link = "https://www.google.ru/search?q=";
+            let output = "";
+            for (const entry of data.entries()) {
+              if (!!entry[1]) {
+                if (/^preset/g.test(entry[0])) {
+                  output += `${entry[1]} `;
+                } else {
+                  output += `${entry[0]}:${entry[1]} `;
+                }
+              }
+            }
+            log.innerText = output;
+            googleBtn.setAttribute("href", link + output);
+            googleBtn.classList.remove("disabled");
+
+            event.preventDefault();
+          },
+          false
+        );
+      })(window, document);
+    </script>
   </body>
 </html>
