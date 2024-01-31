@@ -1,0 +1,72 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<script src="base64.js"></script>
+<script src="hex.js"></script>
+<script src="stream.js"></script>
+<script src="decode.js"></script>
+<style>
+table { font-family: monospace; }
+textarea { font-family: monospace; padding: 1rem; }
+body, table { width: 100%; box-sizing: border-box; margin: 0; border: 10px solid white; }
+pre { white-space: pre-wrap; }
+.hovered { background: #CCC; }
+.bytes span { font-weight: bold; padding-left: 10px; }
+td { vertical-align: top; padding: 0.5em; }
+.details { word-break: break-word; }
+p { margin: 0.75em; max-width: 800px }
+</style>
+
+<h1>GPG/PGP Decoder</h1>
+
+<p>This page will decode PGP armored messages in javascript. It's intended to help you debug if you happen to be working with <a href="https://tools.ietf.org/html/rfc4880">RFC 4880</a> encoded messages. I built it while making <a href="https://github.com/ConradIrwin/dotgpg">dotgpg</a> and it was inspired by (and shares code from) the awesome <a href="http://lapo.it/asn1js/">ASN.1 decoder</a>.</p>
+
+<p>To use it, just paste a GPG message in the box below and click Decode. On the left of the page you'll see the actual bytes, and on the right of the page is the assigned meaning.</p>
+
+
+<p style="margin-left: 5em; margin-bottom: 1.5em;">— <a href="https://twitter.com/ConradIrwin">@ConradIrwin</a> (<a href="https://github.com/ConradIrwin/gpg-decoder">source code</a>)</p>
+
+  <p>
+        <textarea rows="25" cols="62" spellcheck=false>
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.15 (Darwin)
+
+hQEMA9RCnscN9OmNAQf+M72U4c2l2zqZfwqVCTIEi/7HmwZihTricXFI8Cs1L0sV
+Ab7WH5uj7UPhO+ZEoPqgxi2Geb1G7qquv4NYDSLSX/cG3MdBkw2MtxPtzUjuiLNh
+5UQklRMOz8mTPABU6DjjQ176D4U96aiDJKBJTC5THnb0L2WOVip4S3iM06gxtMN3
+sES5lpw3sxldzlNkp03exo/gEKf9niFam6TBUqTvkG3GOCZtFkuvJ3aINVXHhgUF
+xiM5WloUl7Q9f1Kl6Zdu6CWJ5kYE/Gof0lDKAEcYoSwSczEaWwgXHj5BstPBhG5B
+eFAcyZ2BnVgYzkuMkCssefqUtxZKtVI4mcr2yMMQBYUBDAM7Vgd9TH7NWgEH/iOU
+PJgIrE9AP18cZogKk84yGJxZcUBo/i/kCvd+yZ2yHyVtdbz0ltlnfOYjSrYjAjSF
+wCWpSZeJlAKLDnyYhZ6KY+cIZ7E6RU5ZP3Hl/nu+ZQ14tcUYxUWwrg1t1m2fKaCk
+vjSkFbmLXt6cYY6yJYUM3A3++i4UKxyEJec14P/mPxtU3PHtvkzvGuxBqoEBPK0u
+wTzEOePoBZi56lIDe5r421ll0HaBL/6a5d2x4Xc08dOHswXKs+ZnUy9/C2n8MYiC
+VRYO/aBOkLGzmJzqT4nTw5V7oQ5zruf2Cda1wCDW9VR+2+Fv1j7sqSTeUQcPoxon
+8U90m3g8VmkjJeQ9gFPSwLMBN1JZZSOaV99HvxkQT80ZpbBPPeT23gQJs6kveE0D
+dV4ns0CrZP4h3RY3G7bADKQn3ms3Fgd0l+Nx7/x4UOxeQr9sjDB9L0QbY5vxwUAr
+OJRpgjCG1H1TqJ/+zNWnIojEXEjcUljGa0ACNZHtQCkLrzDZqMN9hkD0wb1Lvedn
+V52jrh0c8Nkd9ig/JCrSqkWX+wrCBrngcyESZWl11Civ5ZhCDhtPcgmaAdtNXq/M
+veMR/U1FPdUr6UPPJ+e8BLfZB9pKVR9G/n8vNeYXd6f6D5jliqUFHK2MKbksWyTX
+WKQclR8E5GNDLIQWcuV6hF6lO5keuyXe7MLNO/JQ+JZ//L7YiUJE4rv0e5e0/AYD
+hNEMsAegGoBRdTsYbAEHzoTQkZpgo5mFGXa/vmPUqkTKR1ixl0pC2Uq/KASAaQNx
++5c/r2V8P08fTk5e65JNPx3y1qPC+IeZcF8okNsj9kl3r7dmAKj7VgIjo4DdWe2n
+ibU7sg==
+=HprM
+-----END PGP MESSAGE-----
+        </textarea>
+          <input type="submit" value="Decode" style="display: block" onclick="decode(document.getElementsByTagName('textarea')[0].value); return false">
+
+          </p>
+
+
+<table>
+  <tbody>
+    <tr><td></td></tr>
+  </tbody>
+</table>
+
+<script>
+  if (this.location.hash.length > 1) {
+      document.getElementsByTagName('textarea')[0].value = decodeURIComponent(this.location.hash.substr(1));
+      decode(document.getElementsByTagName('textarea')[0].value);
+    }
+</script>
