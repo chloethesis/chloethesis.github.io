@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Roboto');
+  @import url('http://fonts.googleapis.com/css?family=Roboto');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 html {
   font-size: 62.5%;
@@ -13,6 +13,12 @@ body {
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FFFFFF;
+  background-image: url("https://telegra.ph/file/253eff7919c420ab7b504.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom, left bottom;
 }
 a {
   font-weight: normal;
@@ -22,16 +28,10 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-a:focus {
-  outline: thin dashed;
-}
-BIG {
-  font-size: 80%;
-}
 small {
   font-size: 75%;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,summary {
   line-height: 1;
   text-rendering: optimizeLegibility; 
   margin-top: 10px;
@@ -55,13 +55,18 @@ h4 {
  font-weight: 600;
 }
 h5 {
- font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; 
+ font-size: 1.7rem; line-height: 1.6;  letter-spacing: 0; 
+ font-weight: 600;
 }
 h6 {
  font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; 
 }
 p {
   margin: 0 auto 1.5em auto; 
+}
+summary {
+	font-size: 1.6rem; line-height: 1.5;  letter-spacing: -.05rem; 
+ font-weight: 600;
 }
 p + p {
 }
@@ -135,6 +140,17 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
+body, a, a,:link{cursor:url(https://telegra.ph/file/842eccf97fec08f197b69.png), 
+    default;
+} 
+a:hover {
+    cursor:url(https://telegra.ph/file/842eccf97fec08f197b69.png),
+    wait;
+}
+button:hover {
+    cursor:url(https://telegra.ph/file/842eccf97fec08f197b69.png),
+    wait;
+}
 ::selection {
 	background: #002C90;
 	color: #FFFFFF;
@@ -144,16 +160,32 @@ ul.main-menu li a.active {
 	font-family: 'Nunito Sans', sans-serif;
 	color: #FFFFFF;
 	font-size: 1.5rem;
-	border-radius: 6px;
-	border: 1px solid #D5D5D5;
+	border: 1.2px solid #D5D5D5;
 	background: transparent;
 	text-decoration: none;
-	transition: all 0.1s;
+	transition: all 0.2s;
 	cursor: pointer;
 }
 .btnxd:hover {
 	background: #FFFFFF;
-	border: 0;
 	text-decoration:none;
 	color: #000000;
 }
+details {
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1vh;
+  width: 100%;
+  }
+  summary {
+    background: linear-gradient(#222222, #111111);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 3vh;
+    border-left: 3px solid #004EFF;
+   }
+   details p {
+   border-left: 3px solid #004EFF;
+   padding: 3vh;
+   background: linear-gradient(#222222, #111111);
+  }
