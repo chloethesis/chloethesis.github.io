@@ -140,15 +140,15 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-body, a, a,:link{cursor:url(https://telegra.ph/file/842eccf97fec08f197b69.png), 
+body, a, a,:link{cursor:url(https://telegra.ph/file/5481f6cf8431cb222bc3e.png), 
     default;
 } 
 a:hover {
-    cursor:url(https://telegra.ph/file/842eccf97fec08f197b69.png),
+    cursor:url(https://telegra.ph/file/5481f6cf8431cb222bc3e.png),
     wait;
 }
 button:hover {
-    cursor:url(https://telegra.ph/file/842eccf97fec08f197b69.png),
+    cursor:url(https://telegra.ph/file/5481f6cf8431cb222bc3e.png),
     wait;
 }
 ::selection {
