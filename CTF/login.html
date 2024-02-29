@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KATYUSHA CTF</title>
+
+    <meta property="og:image" content="https://telegra.ph/file/87c88d7c612a4497e7df0.png"/>
+    <meta name="description" content="Katyusha CTF"/>
+    <meta name="keywords" content="CTF"/>
+    <meta name="author" content="Chloe"/>
+    <link rel="shortcut icon" href="https://telegra.ph/file/87c88d7c612a4497e7df0.png" type="image/x-png"/>
+    <link rel="apple-touch-icon" href="https://telegra.ph/file/87c88d7c612a4497e7df0.png" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/particles.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+    
+  </head>
+
+<body>
+
+  <div id="particles-js"></div>
+    <div class="navbar-dark text-light">
+      <div class="container">
+        <nav class="navbar px-0 py-0 navbar-expand-lg navbar-dark">
+        	<a href="/CTF/" class="pl-md-0 p-3 text-decoration-none text-light">
+              <h3><b><span class="text-danger">KATY</span><span class="text-light">USHA</span></b></h3>
+          </a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="navbar-toggler" style="border-color: #365B5B;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <li class="p-3"><a href="/CTF/" class="text-decoration-none text-light">Home</a></li>
+              <li class="p-3"><a href="hackerboard.html" class="text-decoration-none text-light">Scoreboard</a></li>
+              <li class="p-3"><a href="about.html" class="text-decoration-none text-light">About</a></li>
+              <li class="nav-item submenu dropdown p-3">
+              	<a href="#" class="text-decoration-none text-light" data-toggle="dropdown" role="button">User <i class="fa fa-caret-down"></i></a>
+                 <ul class="dropdown-menu p-3">
+              		              		<li class="mb-3"><a href="login.html" class="p-3 text-decoration-none text-light">Login</a></li>
+              		<a href="register.html" class="p-3 text-decoration-none text-light">Register</a>
+            			            		</ul>
+            	</li>
+            </div>
+          </div>
+        </nav>
+
+        </div>
+    </div>
+
+    <div class="container py-5 mb-5">
+  <h3 class="mb-1" style="text-align: center"><b>LOGIN<span class="vim-caret">͏͏&nbsp;</span></b></h3>
+  <div class="lead mb-4 text-mono text-success" style="text-align: center">
+    Login and get started!
+  </div>
+  <div class="row py-4">
+    <div class="col-md-8 order-md-2">
+      <!--<form class="needs-validation" method="post" action="instructions.html"> You can activate it or not, according to your taste -->
+
+        <div class="mb-3">
+          <label for="username">Username</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fa fa-user"></i></span>
+            </div>
+            <input name="username" type="text" class="form-control" placeholder="Username" pattern="^[A-Za-z0-9_\-]+$" maxlength="20" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="password">Password <span class="text-muted"></span></label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fa fa-key"></i></span>
+            </div>
+            <input name="password" type="password" class="form-control" id="myPassword" placeholder="Password" required>
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="button" onclick="myFunction()"><i class="fa fa-eye"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+	        <small class="float-right"><a class="text-info text-decoration-none" href="register.html">Register?</a></small>
+	<small class="float-left">Make sure nobody's behind you!</small>
+	    </div>
+        <hr class="mb-4">
+        <hr class="mb-4">
+        <div class="text-center">
+        	<button onclick="window.location.href='instructions.html';" type="submit" class="btn btn-outline-success btn-shadow btn-lg" style="width:300px;" type="submit">Login!</button>
+    	</div>
+      </form>
+    </div>
+    <div class="col-md-2 order-md-1"></div>
+    <div class="col-md-2 order-md-3"></div>
+  </div>
+</div>
+
+	<script type="text/javascript">
+		function myFunction() {
+			var x = document.getElementById("myPassword");
+		 	if (x.type === "password") {
+		   		x.type = "text";
+		 	} else {
+		   		x.type = "password";
+		  	}
+		 }
+	</script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="https://chloethesis.github.io/CTF/js/particles.js"></script>
+    <script src="https://chloethesis.github.io/CTF/js/app.js"></script>
+          <script src="https://kit.fontawesome.com/bbc05d6193.js" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+          
+
+</body>
+
+</html>
