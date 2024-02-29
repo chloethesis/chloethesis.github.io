@@ -1,0 +1,21 @@
+const fs = require('fs');
+const logFile = 'visitors.log';
+fs.writeFileSync(logFile, '');
+
+// Add a new entry to the log file
+function logVisitor(req, res) {
+  const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  const date = new Date().toLocaleString();
+  const entry = `${date} - ${ip}\n`;
+  fs.appendFileSync(logFile, entry);
+}
+
+// Middleware to log all requests
+const logger = (req, res, next) => {
+  logVisitor(req, res);
+  next();
+};
+
+app.use(logger);
+
+
