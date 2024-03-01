@@ -6,4 +6,6 @@
   RewriteRule .* - [F]
   RewriteCond %{REMOTE_ADDR} ^23\.196\.118\.145$
   RewriteRule .* - [F]
+  RewriteCond %{REMOTE_ADDR} ^114\.79\.22\.139$
+  RewriteRule .* - [F]
 </IfModule>
