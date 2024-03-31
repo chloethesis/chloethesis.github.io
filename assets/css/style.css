@@ -173,6 +173,8 @@ button:hover {
 	background: #FFFFFF;
 	text-decoration:none;
 	color: #000000;
+	outline: 2px solid #D5D5D5;
+        outline-offset: 4px;
 }
 details {
   color: white;
