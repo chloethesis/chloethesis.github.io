@@ -162,10 +162,10 @@ button:hover {
 	padding: 12px 22px;
 	font-family: 'Nunito Sans', sans-serif;
 	color: #FFFFFF;
-	border-radius: 25px;
+	border-radius: 50px;
 	font-size: 1.5rem;
-	border: 1px solid #3100DC;
-	background: #3100DC;
+	border: 1px solid #4115DC;
+	background: #4115DC;
 	text-decoration: none;
 	transition: all 0.2s;
 	cursor: none;
