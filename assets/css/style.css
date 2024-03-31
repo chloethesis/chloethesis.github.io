@@ -23,7 +23,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#250A80;
+  color: #5309FF;
 }
 a:hover {
 	text-decoration: underline;
@@ -80,7 +80,7 @@ q:after {
   content: close-quote;
 }
 blockquote {
-  border-left: 3px solid #250A80;
+  border-left: 3px solid #5309FF;
   margin: 1.6em 3%;
   background: #0E0F11;
   padding: .75em 1em;
@@ -111,8 +111,8 @@ header, #content, footer {
 footer{
 	box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
 	/*border-bottom: 2px solid #00051C;*/
-	border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
+	border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
 }
 ul.main-menu {
   margin: 0;
@@ -135,7 +135,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#FFFFFF;
-  border-bottom-color:#250A80;
+  border-bottom-color:#5309FF;
 }
 .hide {
   display:none;
@@ -159,7 +159,7 @@ button:hover {
 	color: #FFFFFF;
 }
  .btnxd {
-	padding: 12px 20px;
+	padding: 12px 22px;
 	font-family: 'Nunito Sans', sans-serif;
 	color: #FFFFFF;
 	border-radius: 25px;
@@ -168,13 +168,13 @@ button:hover {
 	background: #250A80;
 	text-decoration: none;
 	transition: all 0.2s;
-	cursor: pointer;
+	cursor: none;
 }
 .btnxd:hover {
-	background: transparent;
+	background: #4900F1;
 	text-decoration:none;
 	color: #FFFFFF;
-	outline: 2px solid #250A80;
+	outline: 2px solid #4900F1;
         outline-offset: 4px;
 }
 details {
@@ -188,10 +188,10 @@ details {
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     padding: 3vh;
-    border-left: 3px solid #250A80;
+    border-left: 3px solid #4900F1;
    }
    details p {
-   border-left: 3px solid #250A80;
+   border-left: 3px solid #4900F1;
    padding: 3vh;
    background: linear-gradient(#222222, #111111);
   }
