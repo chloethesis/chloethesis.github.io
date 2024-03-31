@@ -23,7 +23,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#004EFF;
+  color:#250A80;
 }
 a:hover {
 	text-decoration: underline;
@@ -80,7 +80,7 @@ q:after {
   content: close-quote;
 }
 blockquote {
-  border-left: 3px solid #004EFF;
+  border-left: 3px solid #250A80;
   margin: 1.6em 3%;
   background: #0E0F11;
   padding: .75em 1em;
@@ -96,7 +96,7 @@ max-height:2000px auto;
 }
 html {
  /*background: #000D57;*/
- background: #2C1181;
+ background: #250A80;
   background-size: cover;
 }
 body {
@@ -109,10 +109,10 @@ header, #content, footer {
   color:#FFFFFF; 
 }
 footer{
-	/*box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);*/
-	border-bottom: 2px solid #00051C;
-	border-bottom-left-radius: 40px;
-        border-bottom-right-radius: 40px;
+	box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+	/*border-bottom: 2px solid #00051C;*/
+	border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
 }
 ul.main-menu {
   margin: 0;
@@ -135,7 +135,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#FFFFFF;
-  border-bottom-color:#004EFF;
+  border-bottom-color:#250A80;
 }
 .hide {
   display:none;
@@ -159,22 +159,23 @@ button:hover {
 	color: #FFFFFF;
 }
  .btnxd {
-	padding: 12px 22px;
+	padding: 12px 20px;
 	font-family: 'Nunito Sans', sans-serif;
 	color: #FFFFFF;
+	border-radius: 25px;
 	font-size: 1.5rem;
-	border: 1.2px solid #D5D5D5;
-	background: transparent;
+	border: 1.2px solid #250A80;
+	background: #250A80;
 	text-decoration: none;
 	transition: all 0.2s;
 	cursor: pointer;
 }
 .btnxd:hover {
-	background: #FFFFFF;
+	background: transparent;
 	text-decoration:none;
-	color: #000000;
-	outline: 1.3px solid #FFFFFF;
-        outline-offset: 3px;
+	color: #FFFFFF;
+	outline: 2px solid #250A80;
+        outline-offset: 4px;
 }
 details {
   color: white;
@@ -187,10 +188,10 @@ details {
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     padding: 3vh;
-    border-left: 3px solid #004EFF;
+    border-left: 3px solid #250A80;
    }
    details p {
-   border-left: 3px solid #004EFF;
+   border-left: 3px solid #250A80;
    padding: 3vh;
    background: linear-gradient(#222222, #111111);
   }
