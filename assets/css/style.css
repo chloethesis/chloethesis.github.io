@@ -95,8 +95,9 @@ background-color:transparent;
 max-height:2000px auto;
 }
 html {
-  background: #000D57;
-  background-size:cover;
+ /*background: #000D57;*/
+ background: rgba(0,0,0,.8); 
+  background-size: cover;
 }
 body {
   max-width:100%;
@@ -108,7 +109,7 @@ header, #content, footer {
   color:#FFFFFF; 
 }
 footer{
-	box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+	/*box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);*/
 	border-bottom: 2px solid #00051C;
 }
 ul.main-menu {
