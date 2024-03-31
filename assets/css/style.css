@@ -111,8 +111,8 @@ header, #content, footer {
 footer{
 	/*box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);*/
 	border-bottom: 2px solid #00051C;
-	border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
 }
 ul.main-menu {
   margin: 0;
@@ -173,8 +173,8 @@ button:hover {
 	background: #FFFFFF;
 	text-decoration:none;
 	color: #000000;
-	outline: 2px solid #D5D5D5;
-        outline-offset: 4px;
+	outline: 1.3px solid #FFFFFF;
+        outline-offset: 3px;
 }
 details {
   color: white;
