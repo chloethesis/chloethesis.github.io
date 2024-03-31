@@ -164,8 +164,8 @@ button:hover {
 	color: #FFFFFF;
 	border-radius: 25px;
 	font-size: 1.5rem;
-	border: 1.2px solid #632BFF;
-	background: #632BFF;
+	border: 1px solid #3100DC;
+	background: #3100DC;
 	text-decoration: none;
 	transition: all 0.2s;
 	cursor: none;
