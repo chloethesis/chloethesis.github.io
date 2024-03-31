@@ -155,7 +155,7 @@ button:hover {
     wait;
 }
 ::selection {
-	background: #002C90;
+	background: #4900F1;
 	color: #FFFFFF;
 }
  .btnxd {
@@ -164,8 +164,8 @@ button:hover {
 	color: #FFFFFF;
 	border-radius: 25px;
 	font-size: 1.5rem;
-	border: 1.2px solid #250A80;
-	background: #250A80;
+	border: 1.2px solid #632BFF;
+	background: #632BFF;
 	text-decoration: none;
 	transition: all 0.2s;
 	cursor: none;
