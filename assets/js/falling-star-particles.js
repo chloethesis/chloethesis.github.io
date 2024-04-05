@@ -146,7 +146,7 @@
             }
             function createDiv(height, width) {
               var div=document.createElement("div");
-              div.style.position="absolute";
+              div.style.position="fixed";
               div.style.height=height+"px";
               div.style.width=width+"px";
               div.style.overflow="hidden";
