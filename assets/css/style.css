@@ -215,7 +215,7 @@ img {
   transition: all 0.4s ease-in-out;
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
-    margin: 20px 0;
+    margin: 30px 0;
     animation: bounce 4s infinite;
 }
 
