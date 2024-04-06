@@ -1,4 +1,4 @@
-  	  @import url('http://fonts.googleapis.com/css?family=Roboto');
+  @import url('http://fonts.googleapis.com/css?family=Roboto');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 html {
@@ -209,3 +209,28 @@ details {
    padding: 3vh;
    background: linear-gradient(#222222, #111111);
   }
+img {
+  user-select: none;
+  width: 80%;
+  transition: all 0.4s ease-in-out;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+    margin: 20px 0;
+    animation: bounce 1s infinite;
+}
+
+img:hover {
+  /*transform: translateY(-20px);*/
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
