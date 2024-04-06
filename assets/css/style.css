@@ -217,9 +217,6 @@ img {
   -webkit-touch-callout: none;
     margin: 0 auto;
     animation: bounce 2s infinite;
-       text-align: center;
-	justify-content: center;
-	float: center;
 }
 
 img:hover {
