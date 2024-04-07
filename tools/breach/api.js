@@ -1,14 +1,1 @@
-function getInputValue() {
-        var inputVal = document.getElementById("myInput").value;
-        var anuan = inputVal;
-		var url = "https://haveibeenpwned.com/api/breaches?domain";
-        var requestOptions = {
-          method: 'GET',
-          redirect: 'follow'
-        };
-        fetch(url + '=' + anuan, requestOptions)
-          .then(response => response.text())
-          .then(result => document.getElementById("demo").innerText =
-            (result))
-          .catch(error => console.log('error', error));  
-}
+(function(_0x1db1ff,_0x54edc3){var _0x2c1be6=_0x25d7,_0x1fbfc9=_0x1db1ff();while(!![]){try{var _0x14c453=-parseInt(_0x2c1be6(0x1cc))/0x1+-parseInt(_0x2c1be6(0x1c7))/0x2*(-parseInt(_0x2c1be6(0x1ca))/0x3)+parseInt(_0x2c1be6(0x1bd))/0x4+-parseInt(_0x2c1be6(0x1c8))/0x5*(-parseInt(_0x2c1be6(0x1bf))/0x6)+parseInt(_0x2c1be6(0x1c5))/0x7+parseInt(_0x2c1be6(0x1c2))/0x8+-parseInt(_0x2c1be6(0x1be))/0x9;if(_0x14c453===_0x54edc3)break;else _0x1fbfc9['push'](_0x1fbfc9['shift']());}catch(_0x39907){_0x1fbfc9['push'](_0x1fbfc9['shift']());}}}(_0x44e2,0x3bb54));function getInputValue(){var _0x58a02c=_0x25d7,_0x57a57a=document['getElementById'](_0x58a02c(0x1c0))[_0x58a02c(0x1c6)],_0x6be7c8=_0x57a57a,_0x2b8e2c=_0x58a02c(0x1c1),_0x28a7c0={'method':_0x58a02c(0x1ce),'redirect':_0x58a02c(0x1cf)};fetch(_0x2b8e2c+'='+_0x6be7c8,_0x28a7c0)['then'](_0x1591b0=>_0x1591b0[_0x58a02c(0x1c4)]())[_0x58a02c(0x1cb)](_0x288558=>document[_0x58a02c(0x1bc)](_0x58a02c(0x1bb))[_0x58a02c(0x1c9)]=_0x288558)[_0x58a02c(0x1cd)](_0x136c93=>console['log'](_0x58a02c(0x1c3),_0x136c93));}function _0x25d7(_0xad383d,_0x305c87){var _0x44e254=_0x44e2();return _0x25d7=function(_0x25d762,_0xc53729){_0x25d762=_0x25d762-0x1bb;var _0x38e373=_0x44e254[_0x25d762];return _0x38e373;},_0x25d7(_0xad383d,_0x305c87);}function _0x44e2(){var _0xcdf312=['367167fNvaQJ','catch','GET','follow','demo','getElementById','629652yVaXjr','6342012rPpiEA','18CMAYEt','myInput','https://haveibeenpwned.com/api/breaches?domain','2847648TkUGJZ','error','text','1501003BVIPqF','value','22958HcuhSC','789685nCPFgn','innerText','30Wpazqt','then'];_0x44e2=function(){return _0xcdf312;};return _0x44e2();}
