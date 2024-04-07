@@ -120,6 +120,7 @@ header, #content, footer {
 }
 header ul {
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 footer{
