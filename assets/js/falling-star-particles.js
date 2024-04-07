@@ -1,6 +1,6 @@
 
             // <![CDATA[
-            var colour="#4900F1";
+            var colour="#ffffff";
             var sparkles=65;
      
             var x=ox=400;
