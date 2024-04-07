@@ -24,28 +24,34 @@ li {
 }
 
 ::selection {
-	background: darkslateblue;
+	background: #4900F1;
 	color: #fff;
 }
   
 .directory-listing-table {
   margin: auto;
-  background-color: rgb(0 0 0 / 57%);
-  padding: .9rem 1rem;
+  background: rgba(0,0,0,.8);
+  padding: .9rem 4rem;
   max-width: 900px;
   right: 0;
   left: 0;
   width: 100%;
-  border-radius: .75rem;
-  box-shadow: 0 0 20px black;
-}
+  border-radius: .40rem;
+  /*box-shadow: 0 0 40px black;*/
+  box-shadow: 1px 1px 0px rgba(0,0,0,.7),
+            2px 2px 0px rgba(0,0,0,.7),
+            3px 3px 0px rgba(0,0,0,.7),
+            4px 4px 0px rgba(0,0,0,.7),
+            5px 5px 0px rgba(0,0,0,.7),
+            6px 6px 0px rgba(0,0,0,.7);
+} 
   
 thead tr th {
   font-size: 20px;
   color: #fff;
   padding: 0.25rem;
-  background-color: darkslateblue;
-  border-radius: .25rem;
+  background-color: #250A80;
+  border-radius: .30rem;
   font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
@@ -154,7 +160,7 @@ textarea::-webkit-scrollbar-track {
 }
 
 textarea::-webkit-scrollbar-thumb {
-  background-color: darkslateblue;
+  background-color: #4900F1;
   border: 3px solid black;
 }
 
@@ -180,16 +186,40 @@ a {
 }
 
 a:hover {
-  	  color: #0081FF;
+  	  color: #4900F1;
     	text-decoration: underline;
 }
 
 img {
-	width: 35%;
-	margin-bottom: 40px;
-	pointer-events: none;
+  user-select: none;
+  width: 30%;
+  transition: all 0.4s ease-in-out;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+    margin: 30px 0;
+    animation: bounce 4s infinite;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h1, h2, h3, h4, h5, h6, b {
+	user-select: none;
+	}
+	
 h1 {
 	font-size: 4vw;
+}
+
+output {
+	white-space: normal;
 }
