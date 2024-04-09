@@ -85,7 +85,7 @@ q:after {
 blockquote {
   border-left: 3px solid #5309FF;
   margin: 1.6em 3%;
-  background: #0E0F11;
+  background: #333;
   padding: .75em 1em;
   font-size: 1.5rem;
   overflow: auto;
@@ -198,7 +198,7 @@ details {
   }
   summary {
     /*background: linear-gradient(#222222, #111111);*/
-    background: #0E0F11;
+    background: #333;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     padding: 3vh;
