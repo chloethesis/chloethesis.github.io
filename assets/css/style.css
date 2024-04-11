@@ -212,7 +212,7 @@ details {
   }
 img {
   user-select: none;
-  width: 40%;
+  width: 30%;
   transition: all 0.4s ease-in-out;
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
