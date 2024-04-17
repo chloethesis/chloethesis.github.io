@@ -1,5 +1,5 @@
             var colour="lime";
-            var sparkles=80;
+            var sparkles=100;
      
             var x=ox=400;
             var y=oy=300;
