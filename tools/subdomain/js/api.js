@@ -1,5 +1,4 @@
-<script>
-      function getInputValue() {
+function getInputValue() {
         var inputVal = document.getElementById("myInput").value;
         var anuan = inputVal;
 		var url = "https://api.hackertarget.com/hostsearch/?q";
@@ -13,4 +12,3 @@
             (result))
           .catch(error => console.log('error', error));  
       }
-    </script>
