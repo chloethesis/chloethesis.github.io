@@ -1,7 +1,7 @@
 <h1>
   <b>
     <i>
-      ~./UPDATE TOOLS √
+      ~/UPDATE TOOLS √
     </i>
   </b>
 </h1>
