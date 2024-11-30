@@ -1,14 +1,1 @@
-function getInputValue() {
-    var inputVal = document.getElementById("myInput").value;
-    var anuan = inputVal;
-    var url = "https://api.proxynova.com/comb?query=";
-    var requestOptions = {
-      method: 'GET',
-      redirect: 'follow'
-    };
-    fetch(url + '=' + anuan, requestOptions)
-      .then(response => response.text())
-      .then(result => document.getElementById("demo").innerText =
-        (result))
-      .catch(error => console.log('error', error));  
-  }
+(function(_0x224fe2,_0x2e600b){var _0x34e965=_0x141b,_0x2b2ba7=_0x224fe2();while(!![]){try{var _0x9b851f=parseInt(_0x34e965(0x1cc))/0x1+parseInt(_0x34e965(0x1ca))/0x2+parseInt(_0x34e965(0x1cd))/0x3+parseInt(_0x34e965(0x1c7))/0x4+parseInt(_0x34e965(0x1c5))/0x5+-parseInt(_0x34e965(0x1cf))/0x6*(parseInt(_0x34e965(0x1c9))/0x7)+-parseInt(_0x34e965(0x1c8))/0x8;if(_0x9b851f===_0x2e600b)break;else _0x2b2ba7['push'](_0x2b2ba7['shift']());}catch(_0xb648c){_0x2b2ba7['push'](_0x2b2ba7['shift']());}}}(_0xfd5c,0xbb544));function _0x141b(_0x71acd6,_0x19adde){var _0xfd5c9e=_0xfd5c();return _0x141b=function(_0x141be2,_0x1b9a2c){_0x141be2=_0x141be2-0x1c2;var _0x7ff005=_0xfd5c9e[_0x141be2];return _0x7ff005;},_0x141b(_0x71acd6,_0x19adde);}function _0xfd5c(){var _0x159a90=['log','6684200aGdYiT','then','4699248zkPgWM','33041040tpMCVw','654787ruhuOJ','2212192MIqqYm','innerText','1366348nccyMK','1984986BceRpR','catch','48NWjswx','GET','getElementById','follow','myInput'];_0xfd5c=function(){return _0x159a90;};return _0xfd5c();}function getInputValue(){var _0x11f51b=_0x141b,_0x307cdf=document[_0x11f51b(0x1d1)](_0x11f51b(0x1c3))['value'],_0x207d72=_0x307cdf,_0x3998a4='https://api.proxynova.com/comb?query=',_0x4ee2fc={'method':_0x11f51b(0x1d0),'redirect':_0x11f51b(0x1c2)};fetch(_0x3998a4+'='+_0x207d72,_0x4ee2fc)[_0x11f51b(0x1c6)](_0x2eaec7=>_0x2eaec7['text']())[_0x11f51b(0x1c6)](_0x11b12f=>document['getElementById']('demo')[_0x11f51b(0x1cb)]=_0x11b12f)[_0x11f51b(0x1ce)](_0x5bc1ca=>console[_0x11f51b(0x1c4)]('error',_0x5bc1ca));}
