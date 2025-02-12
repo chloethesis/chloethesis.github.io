@@ -204,10 +204,10 @@ details {
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     padding: 3vh;
-    /*border-left: 3px solid #4900F1;*/
+    border-left: 3px solid #4900F1;
    }
    details p {
-   /*border-left: 3px solid #4900F1;*/
+   border-left: 3px solid #4900F1;
    padding: 3vh;
    /*background: linear-gradient(#222222, #111111);*/
    /*background: #0F0D0D;*/
