@@ -1,9 +1,11 @@
 <h2>
   <samp>
-    MY PAGE!
+    <i>
+    私のサイトへようこそ！
+    </i>
   </samp>
 </h2>
 
 ```javascript
-console.log("Why you here nigga?");
+console.log("良い一日をお過ごしください~");
 ```
