@@ -284,3 +284,14 @@ sup {
 	transition: all .4s cubic-bezier(.47,1.64,.41,.8);
 	border-radius: 0px 10px 20px 0px;
 }*/
+pre {
+	overflow: auto;
+}
+
+pre {
+	  font-size: 1.5rem;
+	  background-color: #F8F8F8;
+ 	 color: #002549;
+	  padding: 20px 20px;
+	  font-family: Ubuntu Mono;
+}
