@@ -265,6 +265,10 @@ img:hover {
     transform: translateY(0);
   }
 }
+.banner {
+	width: 50%;
+	border-radius: 4px;
+}
 sup {
   color: #ffffff;
   background: #ff0800;
