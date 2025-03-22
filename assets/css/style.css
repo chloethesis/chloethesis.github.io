@@ -288,12 +288,8 @@ pre {
 	overflow: auto;
 }
 pre {
-	  background-color: #F8F8F8;
+	  background-color: #222222;
  	 color: #002549;
 	  padding: 20px 20px;
-}
-pre p {
-	font-family: Ubuntu Mono;
-	font-size: 1.5rem;
 }
 	
