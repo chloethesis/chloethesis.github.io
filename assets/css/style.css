@@ -265,7 +265,6 @@ img:hover {
     transform: translateY(0);
   }
 }
-
 sup {
   color: #ffffff;
   background: #ff0800;
@@ -273,4 +272,15 @@ sup {
   padding: 1.8px 3px;
   text-decoration: blink;
   text-transform: uppercase;
+}
+.progress-bar {
+	background: #0060FF;
+	opacity:.95;
+	position:fixed;
+	top: 0;
+	left: 0;
+	height: 5px;
+	z-index: 999;
+	transition: all .4s cubic-bezier(.47,1.64,.41,.8);
+	border-radius: 0px 10px 20px 0px;
 }
