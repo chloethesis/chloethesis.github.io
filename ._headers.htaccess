@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{REMOTE_ADDR} ^104\.16\.149\.244$
-  RewriteRule .* - [F]
-  RewriteCond %{REMOTE_ADDR} ^23\.36\.89\.171$
-  RewriteRule .* - [F]
-  RewriteCond %{REMOTE_ADDR} ^23\.196\.118\.145$
-  RewriteRule .* - [F]
-</IfModule>
