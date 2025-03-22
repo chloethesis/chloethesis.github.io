@@ -265,12 +265,6 @@ img:hover {
     transform: translateY(0);
   }
 }
-img .banner {
-	width: 40%;
-	margin: 30px 0;
-	border-radius: 4px;
-	animation: none;
-}
 sup {
   color: #ffffff;
   background: #ff0800;
