@@ -104,7 +104,7 @@ q:after {
   content: close-quote;
 }
 blockquote {
-  border-left: 3px solid #5309FF;
+  /*border-left: 3px solid #5309FF;*/
   margin: 1.6em 3%;
   font-family: Courier New;
   color: #abb2bf;
