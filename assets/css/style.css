@@ -273,7 +273,7 @@ sup {
   text-decoration: blink;
   text-transform: uppercase;
 }
-/*.progress-bar {
+.progress-bar {
 	background: #4900f1;
 	opacity:.95;
 	position:fixed;
@@ -283,7 +283,7 @@ sup {
 	z-index: 999;
 	transition: all .4s cubic-bezier(.47,1.64,.41,.8);
 	border-radius: 0px 10px 20px 0px;
-}*/
+}
 pre {
 	overflow: auto;
 }
