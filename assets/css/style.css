@@ -267,6 +267,7 @@ img:hover {
 }
 .banner {
 	width: 50%;
+	margin: 30px 0;
 	border-radius: 4px;
 }
 sup {
