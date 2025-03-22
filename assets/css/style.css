@@ -26,9 +26,10 @@ a {
   font-weight: normal;
   text-decoration: none;
   color: #ffffff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
+  text-decoration: underline;
 }
 small {
   font-size: 75%;
