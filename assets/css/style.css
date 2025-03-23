@@ -319,7 +319,7 @@ table.post th {
   user-select: none;
 }
 
-table.post th td {
+table.post th td a {
   color: #ffffff;
 }
 
