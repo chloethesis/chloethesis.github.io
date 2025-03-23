@@ -300,21 +300,21 @@ table.post {
 
 table.post th,
 table.post td {
-  border: 2px solid #111111;
+  border: 2px solid #222222;
   padding: 14px;
   text-align: center;
-}
-
-table.post th {
-  background-color: #111111;
-  text-transform: uppercase;
-  color: #ffffff;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 
+table.post th {
+  background-color: #222222;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 table.post tr:hover {
-  background-color: #252525;
+  background-color: #222222;
 }
 
 @media (max-width: 600px) {
