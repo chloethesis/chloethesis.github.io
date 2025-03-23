@@ -300,8 +300,8 @@ table.post {
 
 table.post th,
 table.post td {
-  border: 1px solid #333;
-  padding: 12px;
+  border: 2px solid #333;
+  padding: 14px;
   text-align: center;
 }
 
@@ -312,7 +312,7 @@ table.post th {
 }
 
 table.post tr:hover {
-  background-color: #f2f2f2;
+  background-color: #f3f3f3;
 }
 
 @media (max-width: 600px) {
@@ -321,4 +321,3 @@ table.post tr:hover {
     padding: 14px;
   }
 }
-
