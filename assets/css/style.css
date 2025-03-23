@@ -306,9 +306,10 @@ table.post td {
 }
 
 table.post th {
-  background-color: #101010;
+  background-color: transparent;
   text-transform: uppercase;
   color: #ffffff;
+  font-family: monospace;
 }
 
 table.post tr:hover {
