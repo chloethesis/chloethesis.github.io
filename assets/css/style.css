@@ -319,8 +319,18 @@ table.post th {
   user-select: none;
 }
 
-table.post th td a {
+table.post th td {
   color: #ffffff;
+}
+
+table.post td a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+table.post td a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 table.post tr:hover {
