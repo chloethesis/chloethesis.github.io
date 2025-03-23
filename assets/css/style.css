@@ -294,12 +294,14 @@ pre {
 }
 .table-container {
   max-width: 100%;
-  overflow-x: auto; 
+  /*overflow-x: auto; */
+  overflow-x: auto;
 }
 table.post {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  overflow: auto;
 }
 
 table.post th,
