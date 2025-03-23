@@ -307,6 +307,7 @@ table.post td {
   border: 3px solid #222222;
   padding: 15px;
   border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
