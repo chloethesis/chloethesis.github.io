@@ -315,6 +315,7 @@ table.post td {
 table.post th {
   background-color: #4900f1;
   text-transform: uppercase;
+  user-select: none;
 }
 
 table.post th td {
