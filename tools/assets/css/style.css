@@ -307,3 +307,14 @@ sup {
   padding: 1.8px 3px;
   text-decoration: blink;
 }
+.progress-bar {
+    background: #4900f1;
+    opacity: 0.95;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    z-index: 999;
+    transition: all 0.4s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    border-radius: 0px 10px 20px 0px;
+}
