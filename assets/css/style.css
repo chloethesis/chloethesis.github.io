@@ -315,7 +315,7 @@ table.post th {
 }
 
 table.post tr:hover {
-  background-color: none;
+  background-color: #1F2630;
 }
 
 @media (max-width: 600px) {
