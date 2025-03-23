@@ -292,3 +292,33 @@ pre {
   color: #e6e6f1;
   padding: 20px 20px;
 }
+table.post {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table.post th,
+table.post td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+table.post th {
+  background-color: #101010;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+table.post tr:hover {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+  table.post th,
+  table.post td {
+    padding: 14px;
+  }
+}
+
