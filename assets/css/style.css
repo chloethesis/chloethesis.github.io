@@ -314,7 +314,7 @@ table.post th {
 }
 
 table.post tr:hover {
-  background-color: #f3f3f3;
+  background-color: #252525;
 }
 
 @media (max-width: 600px) {
