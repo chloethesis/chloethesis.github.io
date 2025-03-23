@@ -308,13 +308,13 @@ table.post td {
 }
 
 table.post th {
-  background-color: #222222;
+  background-color: #4900f1;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 table.post tr:hover {
-  background-color: #222222;
+  background-color: none;
 }
 
 @media (max-width: 600px) {
