@@ -292,6 +292,10 @@ pre {
   color: #e6e6f1;
   padding: 20px 20px;
 }
+.table-container {
+  max-width: 100%;
+  overflow-x: auto; 
+}
 table.post {
   width: 100%;
   border-collapse: collapse;
