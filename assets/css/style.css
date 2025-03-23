@@ -305,7 +305,7 @@ table.post {
 table.post th,
 table.post td {
   border: 3px solid #222222;
-  padding: 15px;
+  padding: 14px;
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -340,6 +340,6 @@ table.post tr:hover {
 @media (max-width: 600px) {
   table.post th,
   table.post td {
-    padding: 15px;
+    padding: 14px;
   }
 }
