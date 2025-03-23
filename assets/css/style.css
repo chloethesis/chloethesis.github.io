@@ -300,9 +300,9 @@ table.post {
 
 table.post th,
 table.post td {
-  border: 3px outset #000000;
+  border: 3px solid #222222;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 6px;
   text-align: center;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
