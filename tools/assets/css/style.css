@@ -170,6 +170,7 @@ footer,
 header {
   background: rgba(0, 0, 0, 0.8);
   padding: 25px;
+  height: 100%;
   color: #fff;
 }
 footer {
