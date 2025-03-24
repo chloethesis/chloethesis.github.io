@@ -180,6 +180,13 @@ footer {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 ul.main-menu {
   display: flex;
   flex-wrap: wrap;
