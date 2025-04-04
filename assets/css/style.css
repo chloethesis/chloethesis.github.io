@@ -297,7 +297,8 @@ pre {
 pre {
   background-color: #101010;
   color: #e6e6f1;
-  border-radius: 10px;
+  border-left: 4px solid #ffffff;
+  border-radius: none;
   padding: 20px 20px;
 }
 .table-container {
